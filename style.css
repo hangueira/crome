@@ -1,0 +1,26 @@
+body {
+  background-color: #ecf0f1;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+hi {
+  color: #34495e;
+  transition: color 0.5s ease-in-out;
+}
+
+/* 클릭되었을 경우 js에서 classList에 clicked 가지고 색깔변경시킨다 */
+.clicked {
+  color: #7f8c8d;
+}
+
+.form,
+.login {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
